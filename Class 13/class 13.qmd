@@ -1,0 +1,228 @@
+---
+title: "class13 rna seq (pt.1)"
+format: html
+editor: visual
+---
+
+Today we will analyze data from a published rna seq experiment where airway smooth muscle cells were treated with dexamethsone, a synthetic gluticosteroid steroid with anti inflmmatory effects (Himes et al).
+
+## Import countDara and colData
+
+There are two databases I need to import / read
+
+\-'count data' the trascript counts per gene (rows) in the different experiments
+
+-col'Data' information about the columns (ie experiments) in 'countData'. 'countData'.
+
+```{r}
+counts   <- read.csv("airway_scaledcounts.csv", row.names=1)
+metadata <- read.csv("airway_metadata.csv")
+```
+
+We can see 'head ()'
+
+```{r}
+head(counts)
+```
+
+Q1. How many genes are in this dataset?
+
+```{r}
+nrow(counts)
+```
+
+Q2. How many control cell lines do we have?
+
+```{r}
+table( metadata$dex )
+```
+
+```{r}
+metadata$dex == "control"
+```
+
+```{r}
+control <- metadata[metadata[,"dex"]=="control",]
+control.counts <- counts[ ,control$id]
+control.mean <- rowSums( control.counts )/4 
+head(control.mean)
+```
+
+Q3. How would you make the above code in either approach more robust? Is there a function that could help here?
+
+```{r}
+control.mean <- rowSums(control.counts)/ncol(control.counts)
+head(control.mean)
+```
+
+Q4. Follow the same procedure for the treated samples 
+
+```{r}
+treated.inds <- metadata$dex =="treated"
+treated.inds 
+``` 
+
+```{r}
+treated.counts <- counts[,treated.inds]
+treated.mean <-apply(treated.counts,1,mean)
+head(treated.mean)
+```
+
+We can find the average count values per gene for all control experiments and compare it to the mean values for treated.
+
+-Extract all "control" columns from the 'counts' data -Find the mean value for each gene in these columns
+
+```{r}
+control.inds <- metadata$dex == "control"
+control.counts <- counts[ , control.inds]
+```
+
+```{r}
+dim(control.counts)
+```
+
+Lets put these two mean values together for easy book keeping 
+
+```{r}
+meancounts <- data.frame (control.mean, treated.mean)
+head(meancounts)
+```
+
+Lets have a look. Plot control.mean vs treated. mean
+
+```{r}
+plot(meancounts)
+```
+
+Whenver we see data that is so heavily skewed like this we often log transform it so we can see what is going on more easily. 
+
+
+```{r}
+plot(meancounts, log= "xy")
+```
+
+
+We most often work in log2 units as this makes the math easier. 
+
+```{r}
+# control / treated 
+log2(20/20) 
+``` 
+
+```{r}
+log2(20/40)
+```
+
+```{r}
+log2(20/40)
+```
+
+We can now add "log2 fold change" values to our 'meancounts' dataset. 
+
+```{r}
+meancounts$log2fc <- log2(meancounts$treated.mean / 
+                          meancounts$control.mean )
+head (meancounts)
+```
+
+
+We need to filter out zero count genes - remove rows (genes) that have 0 value in either control or treated means. 
+
+How many genes are "up" regulated at the common log2 fold change threshold of +2. 
+
+
+```{r}
+up.inds <- meancounts$log2fc >= 2 
+sum(up.inds, na.rm=T)
+```
+
+How many genes are "down" regulated at threshold -2? 
+
+```{r}
+down.inds <- meancounts$log2fc <= -2 
+```
+
+## DESeq2 analysis 
+
+Consider the significance of differences not just their magnitude 
+
+```{r}
+#/ message: false
+library(DESeq2)
+```
+
+To use this package it wants countData and colData in a specific format. 
+
+```{r}
+dds <- DESeqDataSetFromMatrix(countData = counts,
+                       colData = ,metadata,
+                       design = ~dex)
+```
+
+```{r}
+dds <- DESeq(dds)
+```
+
+
+Extract my results 
+```{r}
+res <- results (dds)
+head(res)
+```
+
+Plot of fold change vs p value 
+```{r}
+plot(res$log2FoldChange, res$padj)
+```
+
+Take the log of p value 
+```{r}
+plot(res$log2FoldChange, log(res$padj))
+```
+
+Take the log of p value 
+
+```{r }
+log(0.00000000001)
+```
+
+```{r}
+plot(res$log2FoldChange, -log(res$padj),
+     xlab="Log2 Fold-change",
+     ylab="-log(P-value)")
+```
+
+
+
+Lets save our work to date 
+```{r}
+write.csv(res, file="myresults.csv")
+```
+
+
+To finish off lets make a nicer volcano plot. Add the log2 threshold of +2/-2.
+-Add P-value threshold lines at 0.05. 
+-Add color to highlight subset of genes that meet both if the above thresholds. With ggplot. 
+
+```{r}
+mycols <-rep("grey", nrow(res))
+mycols[res$log2FoldChange >= 2] <- "red"
+mycols[res$log2FoldChange <= -2] <- "blue"
+mycols[res$padj > 0.05] <- "grey"
+```
+
+```{r}
+library(ggplot2)
+ggplot(res)+
+  aes(log2FoldChange, -log(padj)) +
+  geom_point(col=mycols)+ 
+  geom_vline(xintercept =c(-2,2), col="pink" )+
+  geom_hline(yintercept =0.05, col="blue" )
+```
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+---
+title: "Homework 6"
+author: "Sze Sze Chan"
+date: "2025-01-25"
+output: pdf
+---
+
+```{r}
+# Can you improve this analysis code?
+library(bio3d)
+s1 <- read.pdb("4AKE") # kinase with drug
+s2 <- read.pdb("1AKE") # kinase no drug
+s3 <- read.pdb("1E4Y") # kinase with drug
+s1.chainA <- trim.pdb(s1, chain="A", elety="CA")
+s2.chainA <- trim.pdb(s2, chain="A", elety="CA")
+s3.chainA <- trim.pdb(s1, chain="A", elety="CA")
+s1.b <- s1.chainA$atom$b
+s2.b <- s2.chainA$atom$b
+s3.b <- s3.chainA$atom$b
+plotb3(s1.b, sse=s1.chainA, typ="l", ylab="Bfactor")
+plotb3(s2.b, sse=s2.chainA, typ="l", ylab="Bfactor")
+plotb3(s3.b, sse=s3.chainA, typ="l", ylab="Bfactor")
+```
+
+```{r}
+# Inputs: A list of PDB file identifiers (e.g., "4AKE", "1AKE", "1E4Y") to be analyzed. 
+library(bio3d); lapply(list("4AKE", "1AKE", "1E4Y"), function(pdb) {
+protein <- read.pdb(pdb)
+food <- trim.pdb(protein, chain="A", elety="CA")
+cookie <- food$atom$b
+plotb3(cookie, sse=food, typ="l", ylab="Bfactor")
+cat("Serve sushi ", pdb, "with pasta ")
+})
+```
+
+
+
+
+
+
+
+
+
+
+
