@@ -58,12 +58,21 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 <meta name="generator" content="pandoc" />
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />)
 -Class 11 [Alpha Fold] (<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<html>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">)
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Sze Sze Chan" />
+
+<meta name="date" content="2025-02-19" />
+
+<title>class11</title>)
 -Class 12 [Rna Seq Galaxy] (<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
@@ -93,12 +102,14 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">)
 -Class 17 [Analyzing sequence data in cloud] (<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<html>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">)
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />)
 -Class 18 [Pertussis project] (<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
