@@ -49,12 +49,14 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">)
 -Class 10 [Structural Bioinformatics] (<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<html>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">)
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />)
 -Class 11 [Alpha Fold] (<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
@@ -102,6 +104,8 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">)
 -Class 19 [Cancer mutation] (<!DOCTYPE html>
