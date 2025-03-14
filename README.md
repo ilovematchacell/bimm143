@@ -1,6 +1,4 @@
-# bimm143
 
-Bioinformatics Class This repo is for my UCSD bioinformatics class.
 theme: jekyll-theme-minimal 
 logo: https://bioboot.github.io/bimm143_F18/assets/img/logo.png
 title: Cece's Bioinformatics Class (BIMM 143, Winter 2025)
@@ -8,8 +6,7 @@ Theme: jekyll-theme-minimal
 Logo: https://bioboot.github.io/bimm143_F18/assets/img/logo.png
 Title: Cece's Bioinformatics Class (BIMM 143, Winter 2025)
 
-#BIMM ClassWork 
-This is a store of my class work for BIMM Winter 2025 () at UCSD 
+This is a store of my class work for BIMM Winter 2025 at UCSD 
 
 ## Content 
 -Class 4 R [Script to PDF Report] (file:///Users/szesze/Downloads/Class_4_intro_to_r.pdf)
