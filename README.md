@@ -20,7 +20,13 @@ This is a store of my class work for BIMM Winter 2025 () at UCSD
 -Class 10 [Structural Bioinformatics] (file:///Users/szesze/Downloads/class10.pdf)
 -Class 11 [Alpha Fold] (file:///Users/szesze/Downloads/class11.pdf)
 -Class 12 [Rna Seq Galaxy] (file:///Users/szesze/Downloads/class11.pdf)
--Class 13 [DE Seq Lab] (file:///Users/szesze/Downloads/class13_rna_seq__pt.1_.pdf)
+-Class 13 [DE Seq Lab] (<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.57">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">)
 -Class 14 [DE Seq 2 Mini project] (file:///Users/szesze/Downloads/class14%20(1).pdf)
 -Class 16 [Unix basics] (file:///Users/szesze/Downloads/HW8_unix_questions%20(1).pdf)
 -Class 17 [Analyzing sequence data in cloud] (file:///Users/szesze/Downloads/submission_315251165%20(1).pdf)
