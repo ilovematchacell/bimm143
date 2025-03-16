@@ -6,15 +6,14 @@ Logo: https://bioboot.github.io/bimm143_F18/assets/img/logo.png
 This is a store of my class work for BIMM Winter 2025 at UCSD 
 
 ## Content 
--Class 4 R [Script to PDF Report] https://htmlpreview.github.io(/?https://github.com/ilovematchacell/bimm143/raw/main/homework6.html)
+-Class 4 R [Script to PDF Report] 
 
   
 -Class 5 [gg plot RMD] https://htmlpreview.github.io/(https://github.com/ilovematchacell/bimm143/raw/main/homework6.html)
 
 
 
--Class 6 [R Functions] (https://htmlpreview.github.io/http://www.w3.org/1999/xhtml)
-
+-Class 6 [R Functions] (https://htmlpreview.github.io(/?https://github.com/ilovematchacell/bimm143/raw/main/Homework 6.html)
 
 
 -Class 7 [Machine Learning] (https://htmlpreview.github.io/<!DOCTYPE html>
