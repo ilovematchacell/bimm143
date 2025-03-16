@@ -14,6 +14,7 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.57">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">)
+  
 -Class 5 [gg plot RMD] (https://htmlpreview.github.io/<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
