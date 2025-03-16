@@ -15,12 +15,13 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
   <meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Your Report Title</title>
+  <title>Your Report Title</title> <!-- Optionally add a title to your report -->
 </head>
 <body>
-  <!-- Your content here -->
+  <!-- Your content goes here -->
 </body>
 </html>
+
 
   
 -Class 5 [gg plot RMD] (https://htmlpreview.github.io/<!DOCTYPE html>
