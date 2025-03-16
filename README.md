@@ -9,19 +9,8 @@ Title: Cece's Bioinformatics Class (BIMM 143, Winter 2025)
 This is a store of my class work for BIMM Winter 2025 at UCSD 
 
 ## Content 
--Class 4 R [Script to PDF Report] <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.57">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Your Report Title</title> <!-- Optionally add a title to your report -->
-</head>
-<body>
-  <!-- Your content goes here -->
-</body>
-</html>
-
+-Class 4 R [Script to PDF Report] https://htmlpreview.github.io/(<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>)
 
   
 -Class 5 [gg plot RMD] (https://htmlpreview.github.io/<!DOCTYPE html>
@@ -118,4 +107,4 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">)
--Class 19 [Cancer mutation] (https://htmlpreview.github.io/"http://www.w3.org/1999/xhtml)
+-Class 19 [Cancer mutation] ([https://htmlpreview.github.io/"http://www.w3.org/1999/xhtml](http://www.w3.org/1999/xhtml)")
