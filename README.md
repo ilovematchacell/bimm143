@@ -22,16 +22,7 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 <meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">)
--Class 6 [R Functions] (https://htmlpreview.github.io/<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="author" content="Sze Sze Chan">
-<meta name="dcterms.date" content="2025-01-25">)
+-Class 6 [R Functions] (https://htmlpreview.github.io/http://www.w3.org/1999/xhtml)
 
 -Class 7 [Machine Learning] (https://htmlpreview.github.io/<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
