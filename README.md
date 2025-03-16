@@ -1,10 +1,7 @@
 
 theme: jekyll-theme-minimal 
-logo: https://bioboot.github.io/bimm143_F18/assets/img/logo.png
-title: Cece's Bioinformatics Class (BIMM 143, Winter 2025)
-Theme: jekyll-theme-minimal 
+Title: Sze Sze's Bioinformatics Class (BIMM 143, Winter 2025)
 Logo: https://bioboot.github.io/bimm143_F18/assets/img/logo.png
-Title: Cece's Bioinformatics Class (BIMM 143, Winter 2025)
 
 This is a store of my class work for BIMM Winter 2025 at UCSD 
 
