@@ -8,7 +8,7 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
   
 - Class 5 [gg plot RMD](https://htmlpreview.github.io/https://github.com/ilovematchacell/bimm143/raw/main/homework6.html)
 
-- Class 6 [R Script to PDF](https://htmlpreview.github.io/https://github.com/ilovematchacell/bimm143/raw/main/homework6.html)
+- Class 6 [R Script to PDF](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/Homework%206.html)
 
 - Class 7 [Machine Learning 1](https://htmlpreview.github.io/https://github.com/ilovematchacell/bimm143/raw/main/homework6.html)
 
