@@ -13,7 +13,7 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 
 
 
--Class 6 [Homework.6] https://htmlpreview.github.io/(https://github.com/ilovematchacell/bimm143/raw/main/Homework 6.html)
+-Class 6 [Homework.6] (https://htmlpreview.github.io/https://github.com/ilovematchacell/bimm143/raw/main/Homework 6.html)
 
 
 -Class 7 [Machine Learning] (https://htmlpreview.github.io/<!DOCTYPE html>
