@@ -4,11 +4,11 @@ Title: Sze Sze's Bioinformatics Class (BIMM 143, Winter 2025)
 Logo: https://bioboot.github.io/bimm143_F18/assets/img/logo.png
 
 This is a store of my class work for BIMM Winter 2025 at UCSD 
-- Class 4 [Script to PDF Report](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/Class_4_intro_to_r.pdf)
+- Class 4 [Script to PDF](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/Class_4_intro_to_r.pdf)
   
 - Class 5 [gg plot RMD](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/class05.pdf)
 
-- Class 6 [R Script to PDF](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/Homework%206.html)
+- Class 6 [R Functions](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/Homework%206.html)
 
 - Class 7 [Machine Learning 1](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/class07.pdf)
   
