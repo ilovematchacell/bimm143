@@ -22,6 +22,9 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 
 - Class 14 [DE Seq2 Mini Project](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/class14.html)
 
+- Class 16 [Investigating pertussis resurgence mini project](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/lab%2018.html)
+
 - Class 17 [Analyzing sequencing data in the cloud](https://htmlpreview.github.io?https://github.com/ilovematchacell/bimm143/blob/main/class%2017%20hw.nb.html)
 
-- Class 19 [Cancer Mutation Mini Project](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/lab%2018.html)
+
+- Class 19 [Cancer Mutation Mini Project](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/lab%2019.html)
