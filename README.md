@@ -9,7 +9,7 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 -Class 4 R [Script to PDF Report] 
 
   
--Class 5 [gg plot RMD] https://htmlpreview.github.io/(https://github.com/ilovematchacell/bimm143/raw/main/homework6.html)
+-Class 5 [gg plot RMD] (https://htmlpreview.github.io/https://github.com/ilovematchacell/bimm143/raw/main/homework6.html)
 
 
 
