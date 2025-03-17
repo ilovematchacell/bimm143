@@ -22,7 +22,7 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 
 - Class 13 [DE seq lab](https://htmlpreview.github.io/https://github.com/ilovematchacell/bimm143/raw/main/homework6.html)
 
-- Class 14 [DE Seq2 Mini Project](https://htmlpreview.github.io/https://github.com/ilovematchacell/bimm143/raw/main/homework6.html)
+- Class 14 [DE Seq2 Mini Project](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/class14.html)
 
 - Class 15 [Gibhub repo](https://htmlpreview.github.io/https://github.com/ilovematchacell/bimm143/raw/main/homework6.html)
 
