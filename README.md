@@ -18,7 +18,7 @@ This is a store of my class work for BIMM Winter 2025 at UCSD
 
 - Class 11 [Alpha Fold](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/class11.html)
 
-- Class 13 [DE seq lab](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/class13_rna_seq__pt.1_%20(1).pdf)
+- Class 13 [DE seq lab](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/Class%2013/class%2013.html)
 
 - Class 14 [DE Seq2 Mini Project](https://htmlpreview.github.io/?https://github.com/ilovematchacell/bimm143/blob/main/class14.html)
 
